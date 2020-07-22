@@ -1,0 +1,28 @@
+.box {
+  padding: 10px;
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+}
+
+.menu {
+  text-align: right;
+}
+
+.menu li {
+  display: inline;
+  padding-left: 50px;
+}
+
+
+.goofy_blue {
+  background: rgb(11,173,166);
+}
+
+.purple {
+  background: rebeccapurple;
+}
+
+.red {
+  background: indianred;
+}
