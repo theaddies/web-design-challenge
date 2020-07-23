@@ -5,21 +5,25 @@
   font-weight: bold;
 
 }
-.box_mid {
-  padding: 10px;
-}
+
 
 .biggest_box{
-  background: grey;
-  padding: 50px;
+  background: lightgrey;
+  padding: 60px;
 
+}
+
+.center {
+  text-align: center;
+}
+
+.normal_text {
+  font-size: 20px;
 }
 
 .ul_format{
   text-align: right;
 }
-
-
 
 .set_padding{
   padding: 20px;
