@@ -10,30 +10,92 @@
 
 <body>
 
-    <div class="container">
+    <div class="container-fluid">
         <!--Normally these medium columns go full wide on small screen sizes-->
-        <div class="row">
-            <div class="col">
-                <div class="box goofy_blue">
-                    Lattitude
+        <div class = "row">
+            <div class = "col big_box">
+                <div class="row">
+                    <div class="col-md-12">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
+                            <a class="navbar-brand h1 goofy_blue" href="#"><h1>Lattitude</h1></a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <form class = "form-inline">
+                                <div class="collapse navbar-collapse ul_format" id="navbarNavDropdown">
+                                    <ul class="navbar-nav ">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Dropdown link
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                                <a class="dropdown-item" href="#">Action</a>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                                <a class="dropdown-item" href="#">Something else here</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Home </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Features</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </form>
+
+                          </nav>
+                    </div>
+                    
+                   
                 </div>
             </div>
-            <div class = "col">
-
-            </div>
-            <div class = "col-sm-6">
-                <ul class = "menu">
-                    <li>Plots</li>
-                    <li>Comparison</li>
-                    <li>Data</li>
-                </ul>
-            </div>
+        </div>
+    </div>
+    <div class = "container-fluid">
+        <div class = "row">
+            <div class = "column biggest_box">
+                <div class = "row">
+                    <div class = "col-md-8">
+                        <div class = "box_mid white">
+                            <h2>
+                                Summary: Latitude vs. X
+                            </h2>
+                            <hr>
+                            <p class = "set_padding">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam diam ante, pharetra in ullamcorper eu, maximus a ipsum. Integer nisi tortor, sollicitudin at lobortis condimentum, egestas vehicula ex. Proin placerat laoreet est. Sed iaculis, erat vitae sagittis euismod, lectus felis bibendum mauris, quis pharetra quam justo in risus. Integer faucibus, purus aliquam placerat interdum, ex diam viverra leo, a tristique ante nulla id nibh. Donec ante tortor, venenatis non mollis vitae, consequat ut velit. Suspendisse potenti. Proin sed volutpat dui. Sed eget justo porttitor, condimentum augue ac, vehicula massa. Fusce porta, nulla sed venenatis porta, dolor ex convallis nibh, pulvinar viverra risus metus non ligula. Curabitur ac lacinia leo, a dapibus neque. Sed et ante eget lorem varius scelerisque. Phasellus dictum venenatis nunc id facilisis.
             
+                            Quisque pellentesque, nulla auctor eleifend sodales, mauris odio varius diam, at tempus neque felis vitae lorem. Maecenas nec aliquet enim, eu auctor nibh. Etiam ut viverra eros. Pellentesque in dui nec leo imperdiet scelerisque sed ac nunc. Nunc pulvinar magna sit amet pretium cursus. Nullam eleifend nunc et purus ultricies laoreet. Sed convallis, nisi vitae facilisis viverra, massa neque laoreet ante, non placerat est nunc sit amet felis. Fusce ultricies nisl odio, in luctus ex tincidunt eu. Suspendisse sagittis enim at felis aliquam, eget iaculis nunc molestie. Etiam aliquam augue eget nisi imperdiet elementum. Proin faucibus lectus vel elementum pharetra. Sed vulputate sem ac diam eleifend, sed malesuada lacus pretium.
+            
+                            Vestibulum eget sodales nunc. Donec non tellus eu diam interdum malesuada. Proin faucibus arcu feugiat imperdiet dignissim. Aliquam pretium, nisi nec pulvinar placerat, ante enim rhoncus neque, eu laoreet est dolor sit amet diam. Suspendisse potenti. Vestibulum hendrerit erat sit amet enim euismod congue. Duis quis velit ultrices, pulvinar lacus et, laoreet ligula. Donec rhoncus iaculis orci. Duis vitae facilisis enim. Proin lacus nisi, mattis. 
+                            </p>
+                        </div>
+                    </div>
+                    <div class = "col-md-4 ml-auto">
+                        <div class = "box_mid white">
+                            <h3 >
+                                Visualizations
+                            </h3>
+                            <hr>
+                            <p class = "set_padding">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam diam ante, pharetra in ullamcorper eu, maximus a ipsum. Integer nisi tortor, sollicitudin at lobortis condimentum, egestas vehicula ex. Proin placerat laoreet est. Sed iaculis, erat vitae sagittis euismod, lectus felis bibendum mauris, quis pharetra quam justo in risus. Integer faucibus, purus aliquam placerat interdum, ex diam viverra leo, a tristique ante nulla id nibh. Donec ante tortor, venenatis non mollis vitae, consequat ut velit. Suspendisse potenti. Proin sed volutpat dui. Sed eget justo porttitor, condimentum augue ac, vehicula massa. Fusce porta, nulla sed venenatis porta, dolor ex convallis nibh, pulvinar viverra risus metus non ligula. Curabitur ac lacinia leo, a dapibus neque. Sed et ante eget lorem varius scelerisque. Phasellus dictum venenatis nunc id facilisis.
+            
+                            Quisque pellentesque, nulla auctor eleifend sodales, mauris odio varius diam, at tempus neque felis vitae lorem. Maecenas nec aliquet enim, eu auctor nibh. Etiam ut viverra eros. Pellentesque in dui nec leo imperdiet scelerisque sed ac nunc. Nunc pulvinar magna sit amet pretium cursus. Nullam eleifend nunc et purus ultricies laoreet. Sed convallis, nisi vitae facilisis viverra, massa neque laoreet ante, non placerat est nunc sit amet felis. Fusce ultricies nisl odio, in luctus ex tincidunt eu. Suspendisse sagittis enim at felis aliquam, eget iaculis nunc molestie. Etiam aliquam augue eget nisi imperdiet elementum. Proin faucibus lectus vel elementum pharetra. Sed vulputate sem ac diam eleifend, sed malesuada lacus pretium.
+            
+                            Vestibulum eget sodales nunc. Donec non tellus eu diam interdum malesuada. Proin faucibus arcu feugiat imperdiet dignissim. Aliquam pretium, nisi nec pulvinar placerat, ante enim rhoncus neque, eu laoreet est dolor sit amet diam. Suspendisse potenti. Vestibulum hendrerit erat sit amet enim euismod congue. Duis quis velit ultrices, pulvinar lacus et, laoreet ligula. Donec rhoncus iaculis orci. Duis vitae facilisis enim. Proin lacus nisi, mattis. 
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                
             </div>
         </div>
     </div>
 
-
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>
