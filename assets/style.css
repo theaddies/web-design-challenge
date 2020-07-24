@@ -10,6 +10,10 @@ a:hover {
   <span class="border border-primary"></span>
 }
 
+i.fas,
+i.fab {
+  color: green;
+}
 
 .biggest_box{
   background: lightgrey;
