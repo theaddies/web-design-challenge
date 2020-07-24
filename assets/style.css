@@ -6,6 +6,10 @@
 
 }
 
+a:hover {
+  <span class="border border-primary"></span>
+}
+
 
 .biggest_box{
   background: lightgrey;
