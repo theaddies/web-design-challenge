@@ -39,6 +39,14 @@ i.fab {
   padding: 20px;
 }
 
+@media (max-width: 480px) {
+  .dropdown-item {
+    color: grey;
+    font-size: 20px;}
+  .nav-item {
+    text-align: left;
+    font-size: 20px;}
+  }
 
 h1{
   font-size: 40px;
