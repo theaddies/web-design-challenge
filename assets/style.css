@@ -15,7 +15,9 @@ i.fab {
   color: rgb(11,173,166);;
 }
 
-
+.bounding_box {
+  border: 3px solid rgb(11,173,166);
+}
 
 .biggest_box{
   background: lightgrey;
